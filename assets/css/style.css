@@ -331,6 +331,15 @@ p + p { margin-top: var(--space-2); }
 .about-text { margin-bottom: var(--space-3); color: var(--text-secondary); }
 .about-text .body-large { color: var(--text-primary); }
 
+.about-text p,
+.timeline-content p:not(.company-name),
+.project-card p,
+.modal-body p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .top-skills-label { margin-bottom: var(--space-1); }
 
 .chip-row {
